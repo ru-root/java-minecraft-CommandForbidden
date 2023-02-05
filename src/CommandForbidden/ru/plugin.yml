@@ -1,1 +1,19 @@
+name: CommandForbidden
+main: ru.code.CommandForbidden
+version: 1.03
+author: 'DimaYa'
+website: https://rubukkit.org/threads/admn-sec-info-commandforbidden-1-0v-navigator-po-komandam-skrytie-komand-1-8-x-1-11-2-r0-1.131765/
+description: "Hide or help commands"
 
+api-version: 1.13
+
+commands:
+  cforbidden:
+    description: 'Commands for CommandForbidden.'
+
+permissions:
+  cforbidden.bypass:
+    description: 'CommandForbidden configure.'
+    default: false
+    children:
+        cforbidden.reload: false

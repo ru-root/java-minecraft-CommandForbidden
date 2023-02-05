@@ -17,6 +17,12 @@ forbidden:
     /pl: []
 ```
 
+```
+forbidden:
+    /pl:
+        message: "&Разрешение у админа спросил на просмотр списка?"
+```
+
 
 <p align='center'>
    <a href="https://github-readme-stats.vercel.app/api?username=romankh3&show_icons=true&count_private=true"><img

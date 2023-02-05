@@ -1,4 +1,7 @@
-## CommandForbidden Навигатор по командам, скрытие команд.
+## Minecraft Plugin CommandForbidden
+
+- Навигатор по командам, скрытие команд.
+
 ___
 
 

@@ -33,10 +33,14 @@ forbidden:
 Соответственно и если параметр <strong>args:[/strong] вообще отсутствует будет аналогичное поведение.
 
 
-<p align='center'>
-   <a href="https://github-readme-stats.vercel.app/api?username=romankh3&show_icons=true&count_private=true"><img
-           height=150
-           src="https://github-readme-stats.vercel.app/api?username=romankh3&show_icons=true&count_private=true"/></a>
-   <a href="https://github.com/romankh3/github-readme-stats"><img height=150
-                                                                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=romankh3&layout=compact"/></a>
-</p>
+
+Для чего так делать!?
+Всё просто, пускай некоторые подумают, что это паранойя, но лишним не будет по причине того, что; например команда: [B]/promote[/B] без параметров показывает версию плагина, что упрощает для агрессивно настроенных псевдохакеров, найти эксплоит для того или иного плагина.
+Во многих плагинах выводиться название и версия плагина, если ввести команду без параметров.
+Не знаю для чего так делают плагинисты, псевдопиар такой, или ещё что!?
+Этим самым мы в корне усложняем жизнь таким гостям сервера.
+И одновременно не ограничиваем игроков в функционале команд или минимум ограничиваем.
+  
+  
+  
+

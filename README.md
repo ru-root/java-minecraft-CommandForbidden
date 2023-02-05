@@ -4,6 +4,7 @@
 [![https://img.shields.io/badge/java-16.0.1-00BFFF](https://img.shields.io/badge/java-16.0.1-00BFFF)](https://www.php.net/releases/8.0/en.php)
 [![https://img.shields.io/badge/api-1.13-black](https://img.shields.io/badge/api-1.13-black)](https://www.php.net/releases/8.0/en.php)
 [![https://img.shields.io/badge/BuildTools-1.11-black](https://img.shields.io/badge/BuildTools-1.11-black)](https://www.php.net/releases/8.0/en.php)
+[![https://img.shields.io/badge/Spigot-1.18-CD853F](https://img.shields.io/badge/Spigot-1.18-CD853F)](https://www.php.net/releases/8.0/en.php)
 
 
 - Навигатор по командам, скрытие команд.

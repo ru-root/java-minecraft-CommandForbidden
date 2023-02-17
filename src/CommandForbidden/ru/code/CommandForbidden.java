@@ -35,18 +35,14 @@ public class CommandForbidden extends JavaPlugin implements Listener {
     @Override
     public boolean onCommand(final CommandSender sender, final Command cmd, final String label, final String[] args)
     {
-        if (sender.hasPermission("cforbidden.bypass") || sender.equals(Bukkit.getConsoleSender()))
-        {
-           if (args.length == 0 || ! args[0].equalsIgnoreCase("reload"))
-           {
+        if (sender.hasPermission("cforbidden.bypass") || sender.equals(Bukkit.getConsoleSender())) {
+           if (args.length == 0 || ! args[0].equalsIgnoreCase("reload")) {
               sender.sendMessage(
                   Utilits.getMsg(
                       this.getConfig().getString("cmdHelp")
                   )
               );
-           }
-           else
-           {
+           } else {
               this.reloadConfig();
               sender.sendMessage(
                   Utilits.getMsg(
@@ -94,8 +90,7 @@ public class CommandForbidden extends JavaPlugin implements Listener {
          */
         final Set<String> keys = config.getKeys(false);
 
-        for (String k : keys)
-        {
+        for (String k : keys) {
           /**
            * Чтобы когда запрещаем, например: "/op admin" - не запрещался и "/op admindada" и т. д.
            * А "/op admin args" уже не прокатит!
@@ -103,10 +98,8 @@ public class CommandForbidden extends JavaPlugin implements Listener {
            * .substring() тоже отказалась работать - не знаю почему
            * И по этому regex рулит балом
            */
-            if (command.matches("^" + k + "( .*)?$"))
-            {
-               if (event.isCancelled())
-               {
+            if (command.matches("^" + k + "( .*)?$")) {
+               if (event.isCancelled()) {
                   /**
                    * Для совместимости с другими запрещалками команд
                    * Логироваем
@@ -118,8 +111,7 @@ public class CommandForbidden extends JavaPlugin implements Listener {
                 * Как по другому вычислить количество аргуметов, не допёр
                 * Пришлось создавать новый объект
                 */
-               else if (Utilits.split(command, ' ').length == 1 || ! config.getBoolean(k + ".args", false))
-               {
+               else if (Utilits.split(command, ' ').length == 1 || ! config.getBoolean(k + ".args", false)) {
                    event.getPlayer().sendMessage(
                        Utilits.getMsg(
                            (
